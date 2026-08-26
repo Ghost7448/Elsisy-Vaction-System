@@ -68,7 +68,7 @@ export function buildLeaveModal() {
           .setCustomId('badge_number')
           .setLabel('Kick User')
           .setStyle(TextInputStyle.Short)
-          .setPlaceholder('KYN_Kareem')
+          .setPlaceholder('Example: KYN_Kareem')
           .setRequired(true)
           .setMaxLength(15)
       ),
