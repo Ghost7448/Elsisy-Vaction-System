@@ -39,11 +39,11 @@ export function buildPanelEmbed() {
 // ─── Leave request embed ──────────────────────────────────────
 export function buildRequestEmbed({ badge, name, startDate, endDate, reason, submittedBy, userId, avatarUrl }) {
   return new EmbedBuilder()
-    .setTitle('<:Elsisy:1538886846262812763>  طلب أجازة جديد  |  New Leave Request')
+    .setTitle('<:Kick:1529200674783629433>  طلب أجازة جديد  |  New Leave Request')
     .setColor(COLORS.PENDING)
     .setThumbnail(avatarUrl)
     .addFields(
-      { name: '<:Elsisy:1538886846262812763> Discord ID  ',   value: '```' + badge     + '```', inline: true  },
+      { name: '<:Elsisy:1538886846262812763> Kick User  ',   value: '```' + badge     + '```', inline: true  },
       { name: '👤  الاسم  |  Name',                    value: '```' + name      + '```', inline: true  },
       { name: '🗓️  تاريخ البداية  |  Start Date',      value: '```' + startDate + '```', inline: true  },
       { name: '🗓️  تاريخ الانتهاء  |  End Date',       value: '```' + endDate   + '```', inline: true  },
