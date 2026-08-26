@@ -66,9 +66,9 @@ export function buildLeaveModal() {
       new ActionRowBuilder().addComponents(
         new TextInputBuilder()
           .setCustomId('badge_number')
-          .setLabel('Discord ID')
+          .setLabel('Kick User')
           .setStyle(TextInputStyle.Short)
-          .setPlaceholder('e.g. Elsisy-1229173247157997721')
+          .setPlaceholder('KYN_Kareem')
           .setRequired(true)
           .setMaxLength(15)
       ),
